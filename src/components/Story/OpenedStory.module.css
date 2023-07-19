@@ -1,0 +1,108 @@
+.background {
+  display: flex;
+  background-color: #1a1a1a;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.close {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-container img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 600px;
+  height: 96vh;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  font-family: 'Norican', cursive;
+  color: white;
+}
+
+.img-container p {
+  color: white;
+}
+
+.img-container input {
+  width: 450px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 20px;
+}
+
+.img-container form {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+  margin-bottom: 10px;
+  z-index: 10;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 50px;
+  margin: 0 10px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0;
+}
+
+.user-info p {
+  padding-left: 30px;
+}
+
+.option-bar {
+  display: flex;
+  position: absolute;
+  column-gap: 10px;
+  right: 0;
+  color: white;
+}
+
+.options img {
+  clip-path: circle(47%);
+  width: 2rem;
+  height: 2rem;
+}
+
+.actions {
+  display: flex;
+  column-gap: 20px;
+  color: white;
+}

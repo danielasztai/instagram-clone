@@ -1,0 +1,175 @@
+.feed-container {
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+  height: auto;
+  background-color: black;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.author {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+
+p {
+  color: white;
+  font-size: 0.8rem;
+  margin-left: 10px;
+}
+
+.dots {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 20px;
+  cursor: pointer;
+  height: 100%;
+}
+
+.dot {
+  width: 3px;
+  height: 3px;
+  background-color: white;
+  border-radius: 50px;
+  margin-left: 5px;
+}
+
+.sides {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.profile-img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+}
+
+.name-location {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.author-name {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+  cursor: pointer;
+}
+
+.author-name:hover {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.location {
+  font-size: 0.8rem;
+  margin: 0;
+  cursor: pointer;
+}
+
+.img-container {
+  display: grid;
+  justify-items: center;
+}
+
+.img {
+  width: 100%;
+}
+
+.actions {
+  display: flex;
+  margin-top: 15px;
+  column-gap: 15px;
+  margin-left: 15px;
+  color: white;
+}
+
+.bookmark {
+  position: absolute;
+  right: 10px;
+}
+
+.action:hover {
+  color: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+}
+
+.grey-text {
+  color: #a8a8a8;
+}
+
+.date {
+  color: #a8a8a8;
+  font-size: 0.7rem;
+}
+
+.new-comment {
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  height: 50px;
+}
+
+.show-comments {
+  cursor: pointer;
+  font-size: 0.83rem;
+}
+
+.emoji {
+  color: white;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+input {
+  background-color: black;
+  border: 0;
+  font-size: 0.9rem;
+  color: white;
+  cursor: text;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  background-color: black;
+  border: 0;
+  color: #495967;
+  font-weight: 800;
+  font-size: 0.8rem;
+}
+
+.send-comment {
+  position: absolute;
+  right: 10px;
+}
+
+.enabled {
+  color: #006cb2;
+}
+
+.liked {
+  color: red;
+}
+
+.bookmarked {
+  color: yellow;
+}

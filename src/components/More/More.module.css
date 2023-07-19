@@ -1,0 +1,34 @@
+.more-container {
+  width: 250px;
+  height: 350px;
+  background-color: #262626;
+  position: absolute;
+  bottom: 100px;
+  border-radius: 5px;
+}
+
+.more-container li {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.more-container a,
+.more-container span {
+  margin: 0 10px;
+}
+
+.more-container li:hover {
+  background-color: #494949;
+}
+
+.icon {
+  position: absolute;
+  right: 5px;
+}
+
+.liked {
+  color: red;
+}
