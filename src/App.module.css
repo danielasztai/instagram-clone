@@ -35,3 +35,18 @@ ul {
   position: relative;
   left: 200px;
 }
+
+@media only screen and (max-width: 1200px) {
+  .recommended-container {
+    display: none;
+  }
+
+  .main {
+    margin: 0 auto;
+    left: 0;
+  }
+
+  .center-line {
+    margin: 0;
+  }
+}

@@ -53,3 +53,9 @@
   background-color: #121212;
   transition: 0.5s;
 }
+
+@media only screen and (max-width: 1200px) {
+  .sidebar {
+    display: none;
+  }
+}
